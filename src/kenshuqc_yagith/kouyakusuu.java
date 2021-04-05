@@ -17,16 +17,16 @@ public class kouyakusuu {
         try {
             BufferedReader br
             = new BufferedReader( new InputStreamReader(System.in) );
-            System.out.print( "数値の１つ目を指定 : " );
+            System.out.print( "1つ目を指定 : " );
             a = Integer.parseInt( br.readLine() );
-            System.out.print( "数値の2つ目を指定 : " );
+            System.out.print( "2つ目を指定 : " );
             b = Integer.parseInt( br.readLine() );
 
             if( (n = euclid( a, b )) > 0 )
                 System.out.println(a + "と" + b + "の最大公約数は" + n + "です。" );
             br.close();
         } catch( Exception e ) {
-            System.out.println( "例外が発生しました: " + e );
+            System.out.println( "例外が発生しました。: " + e );
         }
     }
 }
