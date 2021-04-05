@@ -26,7 +26,7 @@ public class kouyakusuu {
                 System.out.println(a + "と" + b + "の最大公約数は" + n + "です。" );
             br.close();
         } catch( Exception e ) {
-            System.out.println( "例外が発生しました。: " + e );
+            System.out.println( "問題が発生しました。: " + e );
         }
     }
 }
