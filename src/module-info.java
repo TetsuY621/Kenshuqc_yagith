@@ -1,0 +1,2 @@
+module kenshuqc_yagith {
+}
