@@ -27,7 +27,7 @@ public class player {
 	        hand = 2;
 	        break;
 	      default:
-	        System.out.println("間違えたので終了します…。");
+	        System.out.println("間違えたので終了します。");
 	    }
 	  }
 
@@ -36,4 +36,5 @@ public class player {
 	  }
 	}
 	
+
 

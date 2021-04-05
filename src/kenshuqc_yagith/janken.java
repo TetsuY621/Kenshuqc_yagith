@@ -9,7 +9,7 @@ public class janken {
 	  }
 
 	  static void endMessage() {
-	    System.out.println("ありがとうございました！また遊びましょうね！");
+	    System.out.println("ありがとうございました！また遊びましょうね！！");
 	    System.out.println("--------------------");
 	  }
 

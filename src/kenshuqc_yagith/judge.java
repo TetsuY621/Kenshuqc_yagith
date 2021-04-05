@@ -19,7 +19,7 @@ public class judge {
 	        win++;
 	        break;
 	      case 2:
-	        System.out.println("あなたの負けです！");
+	        System.out.println("あなたの負けです！！");
 	        lose++;
 	        break;
 	      default:
@@ -28,4 +28,5 @@ public class judge {
 	  }
 }
 	    
+
 	
